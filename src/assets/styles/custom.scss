@@ -1,0 +1,20 @@
+$primary: #20d3c2;
+$secondary: #eeeeee;
+$warning: #FE4545;
+$light: #fff;
+$danger: #e3e3e3;
+$dark: #0e153d;
+$gray: #CCCCCC;
+$blue: #0E153D;
+$success: #64CB83;
+$theme-colors: ("primary": $primary,
+  "warning": $warning,
+  "gray": $gray,
+  "danger": $danger,
+  "dark": $dark,
+  "light": $light,
+  "blue": $blue);
+$input-placeholder-color: #e3e3e3;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap-vue/src/index.scss";

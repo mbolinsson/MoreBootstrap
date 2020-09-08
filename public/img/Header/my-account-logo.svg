@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109.749" height="21" viewBox="0 0 109.749 21">
+  <g id="Group_1158" data-name="Group 1158" transform="translate(-1232.251 -67)">
+    <text id="My_account" data-name="My account" transform="translate(1259 84)" fill="#0e153d" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">My account</tspan></text>
+    <g id="User_icon" data-name="User icon" transform="translate(1023.191 -237.457)">
+      <path id="Path_18" data-name="Path 18" d="M209.81,330.463v-2.806A5.187,5.187,0,0,1,215,322.472h7.62a5.182,5.182,0,0,1,5.179,5.185v2.806" transform="translate(0 -6.007)" fill="none" stroke="#0e153d" stroke-linecap="round" stroke-width="1.5"/>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(213.807 304.457)" fill="none" stroke="#0e153d" stroke-linecap="round" stroke-width="1.5">
+        <circle cx="4.998" cy="4.998" r="4.998" stroke="none"/>
+        <circle cx="4.998" cy="4.998" r="4.248" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
