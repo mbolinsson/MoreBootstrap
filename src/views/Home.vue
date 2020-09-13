@@ -8,6 +8,10 @@
     <ThreeCardSlider v-bind:data="featuredProducts" />
     <FlashSaleJumbotron />
     <TopSellers />
+    <Review />
+    <LatestBlog />
+    <Subscribe />
+    <Logos />
   </div>
 </template>
 
@@ -20,6 +24,10 @@ import ThreeCardSlider from "@/components/ThreeCardSlider.vue";
 import PercentOffJumbotron from "@/components/PercentOffJumbotron.vue";
 import FlashSaleJumbotron from "@/components/FlashSaleJumbotron.vue";
 import TopSellers from "@/components/TopSellers.vue";
+import Review from "@/components/Review.vue";
+import LatestBlog from "@/components/LatestBlog.vue";
+import Subscribe from "@/components/Subscribe.vue";
+import Logos from "@/components/Logos.vue";
 
 export default {
   name: "Home",
@@ -31,6 +39,10 @@ export default {
     PercentOffJumbotron,
     FlashSaleJumbotron,
     TopSellers,
+    Review,
+    LatestBlog,
+    Subscribe,
+    Logos,
   },
   props: [],
   data() {

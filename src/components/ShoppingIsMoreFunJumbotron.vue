@@ -1,5 +1,5 @@
 <template>
-  <div class="jumbotron jumbotron-fluid p-0">
+  <div class="jumbotron jumbotron-fluid p-0" data-aos="fade">
     <div class="container container-custom d-flex align-items-center">
       <div>
         <h1 class="display-4">Shopping is</h1>

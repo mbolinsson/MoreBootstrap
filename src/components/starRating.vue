@@ -1,5 +1,5 @@
 <template>
-  <div v-html="template" class="position-absolute starrating-wrapper m-3 divven"></div>
+  <div v-html="template" class="starrating-wrapper m-3"></div>
 </template>
 
 <script>
@@ -24,9 +24,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.starrating-wrapper {
-  right: 0;
-  bottom: 0;
-}
-</style>
+<style lang="scss"></style>

@@ -98,10 +98,12 @@
                 </div>
               </li>
               <li id="browse-categories-menu-item" class="nav-item ml-3">
-                <a class="nav-link text-dark" href="#">Home</a>
+                <router-link to="/"><a class="nav-link text-dark" href="#">Home</a></router-link>
               </li>
               <li id="browse-categories-menu-item" class="nav-item dropdown ml-3">
-                <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                <router-link to="/Shop"
+                  ><a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a></router-link
+                >
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>

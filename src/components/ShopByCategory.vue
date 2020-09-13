@@ -103,22 +103,47 @@ export default {};
   height: 660px;
   display: grid;
   grid-template-areas:
-    "item1 item2 item2 item3 item3"
-    "item4 item4 item5 item3 item3"
-    "item4 item4 item6 item6 item7";
+    "item1 item2"
+    "item1 item2"
+    "item1 item2"
+    "item1 item2"
+    "item1 item2"
+    "item1 item2"
+    "item4 item2"
+    "item4 item2"
+    "item7 item7"
+    "item7 item7"
+    "item7 item7"
+    "item5 item3"
+    "item5 item3"
+    "item5 item3"
+    "item6 item6"
+    "item6 item6";
 }
 .item {
-  background-color: $blue;
+  background-color: $gray;
   .blue-corner-box {
     border-radius: 0 5px 0 5px !important;
   }
   margin: 5px;
 }
-@media (max-width: 1199.98px) {
-  .grid-container {
-    width: 90vw;
-    height: calc(0.7 * 90vw);
+.grid-container {
+  width: 90vw;
+  height: calc(1.6 * 90vw);
+}
+.item {
+  .blue-corner-box {
+    width: 40% !important;
+    height: 25px;
   }
+}
+.item6 {
+  .blue-corner-box {
+    height: 40px !important;
+  }
+}
+
+@media (min-width: 992px) {
   .item {
     .blue-corner-box {
       width: 50% !important;
@@ -130,10 +155,14 @@ export default {};
       height: 45px !important;
     }
   }
-}
-@media (min-width: 576px) {
-  .item {
-    background-color: $gray;
+  .grid-container {
+    width: 1100px;
+    height: 660px;
+    display: grid;
+    grid-template-areas:
+      "item1 item2 item2 item3 item3"
+      "item4 item4 item5 item3 item3"
+      "item4 item4 item6 item6 item7";
   }
 }
 </style>
